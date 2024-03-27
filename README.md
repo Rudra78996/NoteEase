@@ -1,14 +1,15 @@
-# NoteEase
+# NoteEase 📝
 
 NoteEase is a full-stack web application designed to securely store your notes online. It leverages Express.js in the backend and MySQL as the database to provide users with a robust and reliable note-taking solution.
 
 ## Features:
 
-- **Secure Online Storage**: Safely store your notes in the cloud, accessible from any device with internet connectivity.
-- **Express.js Backend**: Utilizing the powerful Express.js framework for the backend ensures efficient handling of server-side operations, providing a seamless user experience.
-- **MySQL Database**: NoteEase employs MySQL as the database management system, offering a structured and scalable storage solution for your notes.
-- **Flexible Accessibility**: Access your notes anytime, anywhere, ensuring flexibility and convenience in note management.
-- **User Authentication**: Secure your notes with user authentication features, keeping your data protected and private.
+- 🛡️ **Secure Online Storage**: Safely store your notes in the cloud, accessible from any device with internet connectivity.
+- ⚙️ **Express.js Backend**: Utilizing the powerful Express.js framework for the backend ensures efficient handling of server-side operations, providing a seamless user experience.
+- 🗃️ **MySQL Database**: NoteEase employs MySQL as the database management system, offering a structured and scalable storage solution for your notes.
+- 🔐 **JWT Authentication**: Secure your application with JSON Web Tokens (JWTs) for user authentication, ensuring secure access to your notes.
+- 🌐 **Flexible Accessibility**: Access your notes anytime, anywhere, ensuring flexibility and convenience in note management.
+- 👤 **User Authentication**: Secure your notes with user authentication features, keeping your data protected and private.
 
 ## How to Use:
 
@@ -23,4 +24,4 @@ NoteEase is a full-stack web application designed to securely store your notes o
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Express.js
 - **Database**: MySQL
-- **Authentication**: JWT (JSON Web Tokens)
+- **Authentication**: JWT (JSON Web Tokens) 🔑
