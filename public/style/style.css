@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #abdce3;
+}
+li a{
+    text-decoration: none;
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    font-size: 48px;
+    margin-left: 15px;
+}
+.navbar-inner {
+    background:#0a2747;
+}
+img{
+    margin-right: 10px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.container{
+    height: 30rem;
+    width: 40rem;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px  rgb(73, 73, 73);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: scroll;
+    margin: 10px;
+}
+.add{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(230, 228, 228);
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(207, 200, 200);
+}
+.material-symbols-outlined {
+    font-size: 100px;
+    color: rgb(152, 144, 144);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.newNote{
+    height: 300px;
+    width: 419px;
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    border-radius: 10px;
+    box-shadow: 1px 1px 18px rgb(197, 196, 196);
+    text-align: center; 
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+}
+textarea{
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid   #036fe1;
+}
+.custom-btn {
+    margin: 10px 40px 0px 0px;
+    height: 40px;
+    background-color:  #036fe1;
+    border-color:  #036fe1;
+}
+.custom-btn {
+    background-color:  #036fe1;
+    color: #fff;
+    border: none;
+    padding: 0px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.9;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.custom-btn:hover {
+    background-color:  #177be7;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.custom-btn:active {
+    background-color:  #036fe1;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+.close-btn{
+    margin: 10px 0px 10px;
+    width: 125px;
+    height: 38.9px;
+}
+.task{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 234, 116);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgb(197, 196, 196);
+    font-family: "Roboto", sans-serif;
+    /* text-align: center; */
+    padding :10px;
+}
+
+.container::-webkit-scrollbar {
+    /* width: 2px;
+    text-align: center;               */
+    display: none;
+}
+#editButton{
+    z-index: 1;
+    height: 25px 
+}
+#deleteButton{
+    z-index: 1;
+    height: 25px 
+}
+.footer{
+    height: 50px;
+    width: 200px;
+    /* background-color: red; */
+    position: relative;
+    top: -8px;
+    left: 11px;
+    z-index: 1;
+}
+.delete{
+    font-size: 20px;
+    color: white ;
+}
+.edit{
+    font-size: 20px;
+    color: white;
+}
+.upperNote{
+    height: 150px;
+    width: 200px;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    padding: 2px;
+}
+.upperNote::-webkit-scrollbar {
+    display: none;
+}
