@@ -13,7 +13,7 @@ NoteEase is a full-stack web application designed to securely store your notes o
 
 ## How to Use:
 
-1. Clone the repository: `git clone https://github.com/yourusername/NoteEase.git`
+1. Clone the repository: `git clone https://github.com/Rudra78996/NoteEase.git`
 2. Install dependencies: `npm install`
 3. Set up MySQL database configurations in the `db.js` file.
 4. Run the application: `npm start`
