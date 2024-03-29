@@ -25,3 +25,5 @@ NoteEase is a full-stack web application designed to securely store your notes o
 - **Backend**: Express.js
 - **Database**: MySQL
 - **Authentication**: JWT (JSON Web Tokens) 🔑
+
+![Screenshot 2024-03-29 092017](https://github.com/Rudra78996/NoteEase/assets/144105327/6d240b5e-56ab-48f0-80c2-d0105fa6271b)
