@@ -9,6 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.set("view engine", "ejs");
 app.use(cookieParser());
+app.set("views", __dirname + "/views");
 app.use(express.static(path.join(__dirname, ("public/JS"))));
 app.use(express.static(path.join(__dirname, ("public/style"))));
 app.use(express.static(path.join(__dirname, ("public/resource"))));
